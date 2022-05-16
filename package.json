@@ -42,7 +42,7 @@
     "react-table": "^7.7.0",
     "react-toastify": "^7.0.4",
     "react-use-dimensions": "^1.2.1",
-    "secretjs": "^0.11.0",
+    "secretjs": "^0.17.5",
     "styled-components": "^5.2.1",
     "styled-normalize": "^8.0.7",
     "styled-react-modal": "^2.1.0"
