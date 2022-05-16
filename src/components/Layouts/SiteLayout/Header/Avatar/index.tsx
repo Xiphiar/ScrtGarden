@@ -59,7 +59,7 @@ const Avatar = () => {
           </>
         ) : (
           `${commaNumber(
-            toBiggestDenomination( data?.balance.find(v => v.denom === 'uscrt').amount || '0', 6 )
+            toBiggestDenomination(data?.balance.find(v => v.denom === 'uscrt')?.amount, 6 )
           )} SCRT`
         )}
       </InfoPill>
