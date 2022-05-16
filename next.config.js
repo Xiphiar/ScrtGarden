@@ -1,5 +1,6 @@
 module.exports = {
   images: {
+    loader: 'akamai',
     domains: ['ipfs.io'],
   },
   redirects() {
